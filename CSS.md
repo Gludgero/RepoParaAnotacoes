@@ -10,6 +10,10 @@ O CSS surgiu devido a necessidade de estilizar as páginas html de uma forma efi
     xxxxx
 } 
 
+Já falando de "box-model", o padding é a distância entre o conteúdo e sua borda, enquanto a margem é a distância entre a borda e os outros elementos. 
+
+E SEMPRE o primeiro valor vai ser a altura e o segundo a horizontal.
+
 Pensando em produtividade, é interessante usar as classes para facilitar o desenvolvimento. Tudo que é preciso fazer é adicionar o atributo <h1 "class="xxx"> e no arquivo css usar o "." para identificar as classes.
 
 #### É muito importante nomear as classes de forma direta e sucinta para facilitar a leitura do código.
@@ -30,20 +34,30 @@ Pensando em produtividade, é interessante usar as classes para facilitar o dese
 
 ### Flexbox
 
-Documentação usada para pesquisas: 
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
 ##### Para preservar a responsividade do site, não é interessante manipular diretamente o posicionamento dos elementos usando medidas como pixels, por isso usar a ferramenta Flexbox.
 
 ##### Pra começar é necessário usar o "display: flex;" no elemento pai, para conseguir usar o fbx nos elementos filhos.
 
 ##### Para alinhar os elementos com os outros elementos (não alinhar os elementos com a página), usa-se o align-itens: xxxx
 
+### Links Úteis:
+
+https://fonts.google.com/
 
 
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
+https://www.interaction-design.org/literature/topics/ux-design
 
+https://css-tricks.com/
 
+https://www.alura.com.br/artigos/css-seletores-avancados-aplicacoes-web?_gl=1*q2pajr*_ga*MTUyNzA3NjcxMy4xNzA1NjIyNTg1*_ga_1EPWSW3PCS*MTcxNTM4MjE3NC4zNS4xLjE3MTUzODY3NTYuMC4wLjA.*_fplc*V3lPdVFkSEZXdEtwdSUyRmZpR0pxYXdEbGFmSHNXOGV0bFlQalhQbyUyRlBEWGhBJTJGOXJwcU9HM3RpJTJCWGNlNld1NWxhNE9ONDlVNmk3NXYlMkJqMEpxVmYyWk5PUjBZUUVLclM2ciUyRk9NYVFESFBIZVNnclRYaDU2JTJGJTJGcWdCTUUybm04QSUzRCUzRA..
+
+https://www.alura.com.br/artigos/comecando-a-organizar-seu-css?_gl=1*1slkysh*_ga*MTUyNzA3NjcxMy4xNzA1NjIyNTg1*_ga_1EPWSW3PCS*MTcxNTM4MjE3NC4zNS4xLjE3MTUzODY4MTkuMC4wLjA.*_fplc*V3lPdVFkSEZXdEtwdSUyRmZpR0pxYXdEbGFmSHNXOGV0bFlQalhQbyUyRlBEWGhBJTJGOXJwcU9HM3RpJTJCWGNlNld1NWxhNE9ONDlVNmk3NXYlMkJqMEpxVmYyWk5PUjBZUUVLclM2ciUyRk9NYVFESFBIZVNnclRYaDU2JTJGJTJGcWdCTUUybm04QSUzRCUzRA..
+
+Coolors
+
+Adobe color wheel
 
 
 
