@@ -1,6 +1,6 @@
 # Structured Query Language
 
-<p> Bem vindo ao meu MD para estudos de SQL! A função dele não é exatamente <b>ensinar</b> SQL, mas sim ser uma espécie de "CheatSheet" para consulta rápida e claro, me ajudar a sintetizar meus estudos.</p>
+<p align="center"> Bem vindo ao meu MD para estudos de SQL! A função dele não é exatamente <b>ensinar</b> SQL, mas sim ser uma espécie de "CheatSheet" para consulta rápida e me ajudar a sintetizar meus estudos.</p>
 
 <hr>
 
@@ -133,7 +133,7 @@ CREATE TABLE tabelaClientes (
 <hr>
 
 - Drop 
-##### O comando drop exclui permanentemente determinado item, sua sintaxe é: DROP tipo_do_objeto nome_do_objeto;
+##### O comando drop exclui permanentemente determinada tabela ou esquema, sua sintaxe é: DROP tipo_do_objeto nome_do_objeto;
 ---
 - Alter
 ##### Já o comando alter serve para literalmente, alterar determinada table, coluna, schema, etc... Por exemplo: 
@@ -148,6 +148,17 @@ CREATE TABLE tabelaClientes (
 ---
 - Order By
 ##### A função order by é essencial na interpretação de dados, e é simples, podemos passar os parametros "ASC" para ordenação em uma fila ascendente, ou "DESC" para filas descendentes, sendo elas em número, data ou ordem alfabética.
+
+- Alias
+##### Outra Função interessante é a de "apelidar" colunas, útil para quando os nomes das colunas ou tabelas são ambíguos, dificultando a operação de queries, pra isso usamos o alias apelidando uma coluna com outro nome. IMPORTANTE entender que não renomeamos a coluna, e sim apelidamos ela momentaneamente, e o comando apelidando ela deve estar presente na querie operada para funcionar.
+
+- Update / Set
+##### A função update é, literalmente, uma atualização de determinado valor, seja ele geral ou de uma linha especifica, sua sintaxe é:
+> UPDATE tabelaX SET colunaY = valorY, colunaZ = valorZ WHERE...
+
+- Delete 
+##### A cláusula DELETE é usada para eliminar valores de uma tabela, usando sendo um parametro como where ela deleterá todos os dados, mas não a tabela, diferente do comando drop que também excluiria a tabela.
+
 
 ---
 
