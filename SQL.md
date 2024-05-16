@@ -89,7 +89,7 @@
 ##### Armazena dados binários, como imagens ou arquivos.
 
 <hr>
-
+<hr>
 
 <h2 id="Comandos e Cláusulas">Comandos e cláusulas (básicos) SQL:</h2>
 
