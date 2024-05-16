@@ -1,8 +1,10 @@
 # Structured Query Language
 
+<p> Bem vindo ao meu MD para estudos de SQL! A função dele não é exatamente <b>ensinar</b> SQL, mas sim ser uma espécie de "CheatSheet" para consulta rápida e claro, me ajudar a sintetizar meus estudos.</p>
+
 <hr>
 
-### Menu:
+### Índice:
 
 <a href="#Tipos de Dados">- Tipos de Dados</a> <br>
 <a href="#Comandos e Cláusulas">- Comandos e Cláusulas</a> <br>
@@ -143,9 +145,13 @@ CREATE TABLE tabelaClientes (
 ##### Comando para inserir uma linha na tabela existente, se usa o "Insert into nomeTabela (nomeColunas) Values ("x", "y")".
 
 > Uma operação importante é a de combinar o <b>Insert Into</b> com o <b>Select</b>, no lugar do Values, onde podemos inserir dados já existentes de outra tabela no mesmo esquema, e adicionar clausulas como from e where para construir uma Query mais complexa e eficiente.
+---
+- Order By
+##### A função order by é essencial na interpretação de dados, e é simples, podemos passar os parametros "ASC" para ordenação em uma fila ascendente, ou "DESC" para filas descendentes, sendo elas em número, data ou ordem alfabética.
 
+---
 
-<hr>
+---
 
 <h2 id="Keys"> Conceito de KEYs
 
@@ -162,6 +168,14 @@ CREATE TABLE tabelaClientes (
 
 <h3 id="Operadores Lógicos e Matemáticos">Operadores Lógicos e Matemáticos:</h3>
 
-<p> A Sintaxe SQL não difere muito do padrão para operdadores lógicos, sendo >, <, maior e menor que, = igual >=, <=, maior e menor ou igual também são iguais apenas o sinal de <b>"Diferente de"</b> que é representado pelo sinal de "<>".</p>
+<p> A Sintaxe SQL não difere muito do padrão para operadores matemáticos, sendo >, <, maior e menor que, = igual >=, <=, maior e menor ou igual também são iguais apenas o sinal de <b>"Diferente de"</b> que é representado pelo sinal de "<>".</p>
 
 <p> Mas uma característica importante é que os operadores matemáticos não são exclusivos dos números, podemos usar, por exemplo, "WHERE nomeColuna > C", para serem selecionados apenas nomes que comecem com as letras que vem depois de C no alfabeto, essa lógica também se aplica pra datas e horas.
+
+---
+
+<p> Já os operadores lógicos também são bastante intuitivos, podemos usar o AND, OR, BETWEEN, NOT para melhorar a eficiência de nossas solicitações.</p>
+
+
+---
+
