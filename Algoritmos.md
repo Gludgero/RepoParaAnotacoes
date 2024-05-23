@@ -4,7 +4,7 @@
 ### Sumário --->
 
 <a href="#NotacaoBigO">- NotacaoBigO </a> <br>
-<a href="#Arrays">- </a> <br>
+<a href="#Recursão">- Recursão</a> <br>
 <a href="#Arrays">- </a> <br>
 <a href="#Arrays">- </a> <br>
 <a href="#Arrays">- </a> <br>
@@ -21,9 +21,10 @@
                                                                                               \|_________|</pre>      
                                                                                             
 ---
----
 
 <h3 id="NotacaoBigO">Notação BigO</h3>
+
+---
 <p>Usada para comparar e estimar o desempenho de algoritmos, a notação big o é uma representação matemática para o número de <b>OPERAÇÕES (não segundos)</b> que um algoritmo executa em sua "pior hipotese".</p>
 
 Exemplos de representação da Notação Big O:
@@ -35,5 +36,27 @@ Exemplos de representação da Notação Big O:
 - O (n!)
 
 ---
+
+<h3 id="Recursão">Recursão:</h3>
+
+---
+
+A recursão é uma estratégia usada por alguns algoritmos, denominados algoritmos recursivos, em que determinada função chama a si mesma.
+
+Para uma função ser considerada recursiva ela precisa de três características: 
+
+- Caso Base : Estrutura que representa o fim previsto do programa.
+
+- Caso Recursivo : Estrutura em que a função chama a si própria.
+
+- Aproximação do caso base a cada operação recursiva realizada ( Caso contrário, um loop infinito será criado).
+
+---
+
+
+
+
+
+
 
                                                                                         
