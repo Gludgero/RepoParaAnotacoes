@@ -1,8 +1,22 @@
 ## Cascading Style Sheets
 
-O CSS surgiu devido a necessidade de estilizar as páginas html de uma forma eficiente e produtiva. 
+<p>O CSS surgiu devido a necessidade de estilizar as páginas html de uma forma eficiente e produtiva. </p>
 
+<b></b>
+
+---
+
+### Sumário:
+
+<a href=#Flexbox>- Flexbox</a>
+
+
+
+
+---
 ### Exemplo:
+
+---
 
 ##### body {
     background-color: Black
@@ -15,6 +29,8 @@ Já falando de "box-model", o padding é a distância entre o conteúdo e sua bo
 E SEMPRE o primeiro valor vai ser a altura e o segundo a horizontal.
 
 Pensando em produtividade, é interessante usar as classes para facilitar o desenvolvimento. Tudo que é preciso fazer é adicionar o atributo <h1 "class="xxx"> e no arquivo css usar o "." para identificar as classes.
+
+---
 
 #### É muito importante nomear as classes de forma direta e sucinta para facilitar a leitura do código.
 ##### Pensando nisso, posso me basear no padrão *BEM*, no caso Block Element Modifier, que aconselha a criação de nomes seguindo essa ordem, primeiro o bloco de determinado elemento, depois o elemento e por último o modificador que o elemento pode ter, como ativo ou não. 
@@ -32,13 +48,102 @@ Pensando em produtividade, é interessante usar as classes para facilitar o dese
 
 ##### É interessante já começar a estilização com alguns padrões como definir o body como height: 100vh; (O que define que o body vá cobrir a página inteira, sem scroll), e para evitar que as imagens saiam da página ( ou simplemente um elemento filho não saia do elemento pai), usamos o "box-sizing: Border-box;" no elemento pai.
 
-### Flexbox
+---
 
-##### Para preservar a responsividade do site, não é interessante manipular diretamente o posicionamento dos elementos usando medidas como pixels, por isso usar a ferramenta Flexbox.
+<h3 id="Flexbox">Flexbox</h3>
 
-##### Pra começar é necessário usar o "display: flex;" no elemento pai, para conseguir usar o fbx nos elementos filhos.
+---
 
-##### Para alinhar os elementos com os outros elementos (não alinhar os elementos com a página), usa-se o align-itens: xxxx
+<p> Para preservar a responsividade do site, não é interessante manipular diretamente o posicionamento dos elementos usando medidas como pixels, por isso é interessante usar a ferramenta "Flexbox".</p>
+
+---
+
+#### Display: Flex ;
+
+- Para começar a usar as funções é necessário usar o "display: flex;" no elemento pai, para conseguir manipular os elementos filhos.</p>
+
+#### Flex-direction: 
+
+- O Flex direction define o eixo (ou direção) dos itens dentro da DIV, seu parâmetro default é <b>"Row"</b> que define o eixo como horizontal, e também podemos usar o <b>"column"</b> para o eixo vertical. 
+
+        Também é possível usar o inverso dos dois acima, row-reverse e column-reverse.
+
+#### Flex-wrap: 
+
+- Define se os itens deverão se "espremerem" ou se podem usar outras linhas para preservar seu tamanho original. Seus parâmetros são:
+
+
+         nowrap, wrap, wrap-reverse
+
+#### Justify-content: 
+
+- Essa função serve para alinhar seus itens com o eixo estabelecido. Seus possíveis parâmetros são:
+
+       Justify-content: Flex-start (Padrão), flex-end, center, baseline
+
+#### Align-items (COM EME MMMMMMMMM não n)
+- Serve para alinhar os itens com o eixo vertical (tecnicamente o transversal, mas vertical é mais lúdico)
+
+        Align-items: stretch (padrão), flex-start, flex-end, center, baseline
+
+#### Align-content :
+- Usado para múltiplas linhas de conteúdos, alinha o espaço entre os itens.
+
+        align-content: stretch (padrão), flex-start, flex-end, center, space-between, space-around
+
+#### Align-self
+- Usado para alinhar um item individualmente, mesmo dentro de um conteiner com outro "align".
+
+        align-self: flex-start, flex-end, center, baseline, stretch
+
+
+
+
+
+<b></b>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Links Úteis:
 
