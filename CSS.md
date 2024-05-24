@@ -1,28 +1,51 @@
 ## Cascading Style Sheets
 
-<p>O CSS surgiu devido a necessidade de estilizar as páginas html de uma forma eficiente e produtiva. </p>
-
 <b></b>
 
----
+--- 
 
 ### Sumário:
 
-<a href=#Flexbox>- Flexbox</a>
 
+<a href=#CSS>- CSS</a> <br>
+<a href=#Flexbox>- Flexbox</a><br>
 
 
 
 ---
-### Exemplo:
+
+<pre>
+ ________          ________           ________      
+|\   ____\        |\   ____\         |\   ____\     
+\ \  \___|        \ \  \___|_        \ \  \___|_    
+ \ \  \            \ \_____  \        \ \_____  \   
+  \ \  \____        \|____|\  \        \|____|\  \  
+   \ \_______\        ____\_\  \         ____\_\  \ 
+    \|_______|       |\_________\       |\_________\
+                     \|_________|       \|_________|
+                                                    
+                                                    
+</pre>
 
 ---
 
-##### body {
+<br><br><br><br><br><br><br><br><br>
+
+---
+
+<p id="CSS">O CSS surgiu devido a necessidade de estilizar as páginas html de uma forma eficiente e produtiva. </p>
+
+---
+### Exemplo de sintaxe:
+
+---
+
+<pre>body {
     background-color: Black
     xxxxx
     xxxxx
 } 
+</pre>
 
 Já falando de "box-model", o padding é a distância entre o conteúdo e sua borda, enquanto a margem é a distância entre a borda e os outros elementos. 
 
@@ -48,11 +71,14 @@ Pensando em produtividade, é interessante usar as classes para facilitar o dese
 
 ##### É interessante já começar a estilização com alguns padrões como definir o body como height: 100vh; (O que define que o body vá cobrir a página inteira, sem scroll), e para evitar que as imagens saiam da página ( ou simplemente um elemento filho não saia do elemento pai), usamos o "box-sizing: Border-box;" no elemento pai.
 
----
-
-<h3 id="Flexbox">Flexbox</h3>
 
 ---
+
+<br>
+<br>
+
+<h2 id="Flexbox">Flexbox</h3>
+
 
 <p> Para preservar a responsividade do site, não é interessante manipular diretamente o posicionamento dos elementos usando medidas como pixels, por isso é interessante usar a ferramenta "Flexbox".</p>
 
@@ -79,9 +105,9 @@ Pensando em produtividade, é interessante usar as classes para facilitar o dese
 
 - Essa função serve para alinhar seus itens com o eixo estabelecido. Seus possíveis parâmetros são:
 
-       Justify-content: Flex-start (Padrão), flex-end, center, baseline
+       Justify-content: Flex-start (Padrão), flex-end, center, baseline, space-between, space-around, space-evenly
 
-#### Align-items (COM EME MMMMMMMMM não n)
+#### Align-items : (COM EME MMMMMMMMM não n)
 - Serve para alinhar os itens com o eixo vertical (tecnicamente o transversal, mas vertical é mais lúdico)
 
         Align-items: stretch (padrão), flex-start, flex-end, center, baseline
@@ -91,32 +117,15 @@ Pensando em produtividade, é interessante usar as classes para facilitar o dese
 
         align-content: stretch (padrão), flex-start, flex-end, center, space-between, space-around
 
-#### Align-self
+#### Align-self :
 - Usado para alinhar um item individualmente, mesmo dentro de um conteiner com outro "align".
 
         align-self: flex-start, flex-end, center, baseline, stretch
 
+---
 
 
 
-
-<b></b>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 
