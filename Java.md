@@ -89,7 +89,8 @@ Mas caso a nova "casa" do valor seja menor que a "casa antiga" um double se conv
 A tabela abaixo serve para a consulta da compatibilidade das conversões.
 
 ---
-![alt text](image.png)
+
+![alt text](imgs_java/image.png)
 
 ---
 <br>
@@ -97,4 +98,12 @@ A tabela abaixo serve para a consulta da compatibilidade das conversões.
 <br>
 
 ---
+
+<h3 id=Hottakes>Hot takes (Dicas Simples)</h3>
+
+---
+
+- Ponto e vírgula, sempre o ponto e virgula...
+
+- Não se esqueça da ordem de precedência em expressões matemáticas, uso correto dos parenteses e etc...
 
